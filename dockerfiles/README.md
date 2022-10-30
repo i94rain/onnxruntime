@@ -163,7 +163,7 @@ If the `device_type` runtime config option is not explicitly specified, CPU will
      ```
       docker build --rm -t onnxruntime-myriad --build-arg DEVICE=MYRIAD_FP16 -f <Dockerfile> .
      ```
-2. Install the Myriad rules drivers on the host machine according to the reference in [here](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html#additional-NCS-steps)
+2. Install the Myriad rules drivers on the host machine according to the reference in [here](https://docs.openvino.ai/latest/openvino_docs_install_guides_installing_openvino_linux.html#additional-NCS-steps)
 
 3. Run the docker image by mounting the device drivers
     ```
@@ -173,9 +173,9 @@ If the `device_type` runtime config option is not explicitly specified, CPU will
 
 ### OpenVINO on VAD-M Accelerator Version
 
-1. Download OpenVINO **Full package** for version **2021.4** for Linux on host machine from [this link](https://software.intel.com/en-us/openvino-toolkit/choose-download) and install it with the help of instructions from [this link](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html)
+1. Download OpenVINO **Full package** for version **2021.4** for Linux on host machine from [this link](https://software.intel.com/en-us/openvino-toolkit/choose-download) and install it with the help of instructions from [this link](https://docs.openvino.ai/latest/openvino_docs_install_guides_installing_openvino_linux.html)
 
-2. Install the drivers on the host machine according to the reference in [here](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux_ivad_vpu.html)
+2. Install the drivers on the host machine according to the reference in [here](https://docs.openvino.ai/latest/openvino_docs_install_guides_installing_openvino_linux_ivad_vpu.html)
 
 3. Build the docker image from the DockerFile in this repository.
      ```
